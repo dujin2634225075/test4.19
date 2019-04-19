@@ -1,3 +1,6 @@
+let menu = document.querySelector(".menu");
 axios.get("/getlist").then((res) => {
-    console.log(res)
+    menu.innerHTML = res.data.map(item => {
+        return ` <li>${item.title}</li>`
+    }).join("");
 })
