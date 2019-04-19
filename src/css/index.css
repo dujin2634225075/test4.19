@@ -1,0 +1,304 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -o-tap-highlight-color: transparent;
+}
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 1.06667rem;
+  line-height: 1.06667rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header span {
+  width: 2.13333rem;
+  text-align: center;
+}
+
+.header input {
+  flex: 1;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border: 1px solid #aaa;
+  text-align: center;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  overflow: scroll;
+}
+
+.main .menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+
+.main .menu li {
+  width: 15%;
+  flex-shrink: 0;
+}
+
+.main .content {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+
+.main .content dl {
+  flex-shrink: 0;
+  width: 33%;
+  margin-right: 0.13333rem;
+  text-align: center;
+}
+
+.main .content dl dt {
+  width: 100%;
+  height: 2.66667rem;
+  background: #ddd;
+  margin-bottom: 0.13333rem;
+}
+
+.main .list {
+  width: 100%;
+}
+
+.main .list .shou {
+  width: 100%;
+  height: 2.66667rem;
+  background: #ddd;
+  margin: 0.26667rem 0;
+}
+
+.main .list .jx {
+  width: 100%;
+}
+
+.main .list .jx h2 {
+  width: 100%;
+  height: 1.06667rem;
+  line-height: 1.06667rem;
+}
+
+.main .list .jx .jxlist {
+  height: 4.8rem;
+}
+
+.footer {
+  width: 100%;
+  height: 1.6rem;
+  line-height: 1.6rem;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer ul li {
+  width: 25%;
+  text-align: center;
+}
